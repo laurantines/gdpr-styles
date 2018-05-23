@@ -4,8 +4,8 @@
 
 	background: #fc601f; /*COLOR DEL BOTÓN*/
   border-color: #fc601f #fc601f #fc601f; /*COLOR DEL BORDE DEL BOTÓN*/
-	text-shadow: 0 -1px 1px #fc601f, 1px 0 1px #fc601f, 0 1px 1px #fc601f, -1px 0 1px #fc601f;
-  padding: 10px; /*AÑADIR SOMBREADO AL TEXTO DEL BOTÓN*/
+	text-shadow: 0 -1px 1px #fc601f, 1px 0 1px #fc601f, 0 1px 1px #fc601f, -1px 0 1px #fc601f;  /*AÑADIR SOMBREADO AL TEXTO DEL BOTÓN*/
+  padding: 10px;
 }
 
 .gdpr.gdpr-privacy-bar .gdpr-agreement:hover {
