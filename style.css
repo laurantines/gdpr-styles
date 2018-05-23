@@ -31,7 +31,7 @@
 
 /*EN PANTALLAS PEQUEÑAS*/
 
-@media (max-width:1000px){
+@media only screen and (max-width:1000px){
 	.gdpr.gdpr-privacy-bar .gdpr-wrapper .gdpr-right {
     flex-direction: unset;
     margin-top: -20px; /*PARA QUE NO QUEDE TANTO ESPACIO VACÍO EN MÓVILES*/
@@ -48,7 +48,7 @@
 
 /*EN PANTALLAS GRANDES*/
 
-@media (min-width:1000px){
+@media only screen and (min-width:1000px){
 	.gdpr.gdpr-privacy-bar .gdpr-wrapper p {
 	  margin-bottom: 0px;
 }
