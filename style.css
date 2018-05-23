@@ -1,0 +1,63 @@
+/*ESTILOS COOKIE BANNER GDPR PLUGIN*/
+
+.gdpr.gdpr-privacy-bar .gdpr-agreement{
+
+	background: #fc601f;
+  border-color: #fc601f #fc601f #fc601f;
+	text-shadow: 0 -1px 1px #fc601f, 1px 0 1px #fc601f, 0 1px 1px #fc601f, -1px 0 1px #fc601f;
+  padding: 10px;
+}
+
+.gdpr.gdpr-privacy-bar .gdpr-agreement:hover {
+    background: #fc601f;
+    border-color: #fc601f;
+}
+
+.gdpr.gdpr-privacy-bar .gdpr-agreement::before{
+  display: none;
+}
+
+.gdpr.gdpr-privacy-bar .gdpr-wrapper .gdpr-content {
+    padding-bottom: 0px;
+}
+
+.gdpr.gdpr-privacy-bar .gdpr-wrapper .gdpr-right {
+    flex-direction: unset;
+}
+
+.gdpr.gdpr-privacy-bar .gdpr-wrapper p {
+    line-height: 15px;
+}
+
+.gdpr.gdpr-privacy-bar .gdpr-wrapper .gdpr-content {
+    padding-bottom: 0px;
+}
+
+@media (max-width:1000px){
+	.gdpr.gdpr-privacy-bar .gdpr-wrapper .gdpr-right {
+    flex-direction: unset;
+    margin-top: -20px;
+}
+	
+	.gdpr.gdpr-privacy-bar .gdpr-wrapper{
+	  padding: 20px 20px;
+}
+	
+  .gdpr.gdpr-privacy-bar .gdpr-wrapper p  {
+	margin-bottom: 30px;
+}
+	
+	.gdpr.gdpr-privacy-bar{
+	background: rgba(0,0,0,0.7);
+}
+}
+
+@media (min-width:1000px){
+	.gdpr.gdpr-privacy-bar .gdpr-wrapper p {
+	  margin-bottom: 0px;
+}
+	
+  .gdpr.gdpr-privacy-bar .gdpr-wrapper{
+	  padding: 20px 40px;
+}
+}
