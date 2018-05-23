@@ -5,7 +5,7 @@
 	background: #fc601f; /*COLOR DEL BOTÓN*/
   border-color: #fc601f #fc601f #fc601f; /*COLOR DEL BORDE DEL BOTÓN*/
 	text-shadow: 0 -1px 1px #fc601f, 1px 0 1px #fc601f, 0 1px 1px #fc601f, -1px 0 1px #fc601f;  /*AÑADIR SOMBREADO AL TEXTO DEL BOTÓN*/
-  padding: 10px;
+  padding: 10px; /*PADDING DEL TEXTO DEL BOTÓN*/
 }
 
 .gdpr.gdpr-privacy-bar .gdpr-agreement:hover {
@@ -22,15 +22,11 @@
 }
 
 .gdpr.gdpr-privacy-bar .gdpr-wrapper .gdpr-right {
-    flex-direction: unset;
+    flex-direction: unset; /*ESTO ES PARA QUE EL LINK DE PREFERENCIA Y EL BOTÓN DE ACEPTAR ESTÉN EN LA MISMA LÍNEA EN MÓVILES*/
 }
 
 .gdpr.gdpr-privacy-bar .gdpr-wrapper p {
-    line-height: 15px;
-}
-
-.gdpr.gdpr-privacy-bar .gdpr-wrapper .gdpr-content {
-    padding-bottom: 0px;
+    line-height: 15px; /*REDUCIMOS EL INTERLINEADO*/
 }
 
 /*EN PANTALLAS PEQUEÑAS*/
@@ -38,7 +34,7 @@
 @media (max-width:1000px){
 	.gdpr.gdpr-privacy-bar .gdpr-wrapper .gdpr-right {
     flex-direction: unset;
-    margin-top: -20px;
+    margin-top: -20px; /*PARA QUE NO QUEDE TANTO ESPACIO VACÍO EN MÓVILES*/
 }
 	
 	.gdpr.gdpr-privacy-bar .gdpr-wrapper{
@@ -47,10 +43,6 @@
 	
   .gdpr.gdpr-privacy-bar .gdpr-wrapper p  {
 	margin-bottom: 30px;
-}
-	
-	.gdpr.gdpr-privacy-bar{
-	background: rgba(0,0,0,0.7);
 }
 }
 
