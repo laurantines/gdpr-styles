@@ -65,7 +65,7 @@
 /*ACTUALIZACIÓN PLUGIN PARA QUE EL TEXTO Y EL BOTÓN ESTÉN EN LA MISMA LÍNEA*/
 
 .gdpr-buttons {
-    flex-direction: unset;
+    flex-direction: unset !important;
 }
 
 .gdpr.gdpr-privacy-bar .gdpr-wrapper .gdpr-content{
