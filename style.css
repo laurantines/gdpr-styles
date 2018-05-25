@@ -29,8 +29,7 @@
 
 @media only screen and (max-width:1000px){
 	.gdpr.gdpr-privacy-bar .gdpr-wrapper .gdpr-right {
-    flex-direction: unset;
-    margin-top: -20px; /*PARA QUE NO QUEDE TANTO ESPACIO VACÍO EN MÓVILES*/
+    flex-direction: unset !important;
 }
 	
 	.gdpr.gdpr-privacy-bar .gdpr-wrapper{
@@ -70,5 +69,9 @@
 
 .gdpr.gdpr-privacy-bar .gdpr-wrapper .gdpr-content{
 	padding: 0 0 10px 0;
+}
+
+.gdpr.gdpr-privacy-bar .gdpr-wrapper .gdpr-right {
+	margin-top: -20px !important; /*PARA QUE NO QUEDE TANTO ESPACIO VACÍO EN MÓVILES*/	
 }
 
