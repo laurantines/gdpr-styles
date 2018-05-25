@@ -17,12 +17,8 @@
   display: none; /*QUITAMOS EL CHECK QUE APARECE EN LA PARTE IZQUIERDA DEL BOTÓN*/
 }
 
-.gdpr.gdpr-privacy-bar .gdpr-wrapper .gdpr-content {
-    padding-bottom: 0px;
-}
-
-.gdpr.gdpr-privacy-bar .gdpr-wrapper .gdpr-right {
-    flex-direction: unset; /*ESTO ES PARA QUE EL LINK DE PREFERENCIA Y EL BOTÓN DE ACEPTAR ESTÉN EN LA MISMA LÍNEA EN MÓVILES*/
+.gdpr.gdpr-privacy-bar .gdpr-wrapper .gdpr-right .gdpr-buttons button.gdpr-preferences::before{
+	display:none; /*QUITAMOS LA FLECHITA DE LA IZQUIERDA*/
 }
 
 .gdpr.gdpr-privacy-bar .gdpr-wrapper p {
@@ -38,22 +34,37 @@
 }
 	
 	.gdpr.gdpr-privacy-bar .gdpr-wrapper{
-	  padding: 20px 20px;
-}
-	
-  .gdpr.gdpr-privacy-bar .gdpr-wrapper p  {
-	margin-bottom: 30px;
+	  padding: 10px 10px;
 }
 }
 
 /*EN PANTALLAS GRANDES*/
 
 @media only screen and (min-width:1000px){
-	.gdpr.gdpr-privacy-bar .gdpr-wrapper p {
-	  margin-bottom: 0px;
-}
 	
   .gdpr.gdpr-privacy-bar .gdpr-wrapper{
 	  padding: 20px 40px;
 }
 }
+
+
+/*MÁRGENES INFERIORES TEXTO*/
+
+@media (max-width:1000px) and (min-width:676px){
+	.gdpr.gdpr-privacy-bar .gdpr-wrapper p  {
+	margin-bottom: 20px !important
+}
+}
+
+@media (max-width:676px){
+	.gdpr.gdpr-privacy-bar .gdpr-wrapper p  {
+	margin-bottom: 10px !important
+}
+}
+
+/*ACTUALIZACIÓN PLUGIN PARA QUE EL TEXTO Y EL BOTÓN ESTÉN EN LA MISMA LÍNEA*/
+
+.gdpr-buttons {
+    flex-direction: unset !important;
+}
+
