@@ -52,19 +52,23 @@
 
 @media (max-width:1000px) and (min-width:676px){
 	.gdpr.gdpr-privacy-bar .gdpr-wrapper p  {
-	margin-bottom: 20px !important
+	margin-bottom: 20px;
 }
 }
 
 @media (max-width:676px){
 	.gdpr.gdpr-privacy-bar .gdpr-wrapper p  {
-	margin-bottom: 10px !important
+	margin-bottom: 10px;
 }
 }
 
 /*ACTUALIZACIÓN PLUGIN PARA QUE EL TEXTO Y EL BOTÓN ESTÉN EN LA MISMA LÍNEA*/
 
 .gdpr-buttons {
-    flex-direction: unset !important;
+    flex-direction: unset;
+}
+
+.gdpr.gdpr-privacy-bar .gdpr-wrapper .gdpr-content{
+	padding: 0 0 10px 0;
 }
 
