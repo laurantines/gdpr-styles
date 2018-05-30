@@ -35,6 +35,10 @@
 	.gdpr.gdpr-privacy-bar .gdpr-wrapper{
 	  padding: 10px 10px !important;
 }
+	
+	.gdpr-agreement{
+	  margin-right: 30px !important;
+	}
 }
 
 /*EN PANTALLAS GRANDES*/
