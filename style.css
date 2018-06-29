@@ -2,15 +2,15 @@
 
 .gdpr.gdpr-privacy-bar .gdpr-agreement{
 
-	background: #94C74B; /*COLOR DEL BOTÓN*/
-  border-color: #94C74B #94C74B #94C74B; /*COLOR DEL BORDE DEL BOTÓN*/
-	text-shadow: 0 -1px 1px #94C74B, 1px 0 1px #94C74B, 0 1px 1px #94C74B, -1px 0 1px #94C74B;  /*AÑADIR SOMBREADO AL TEXTO DEL BOTÓN*/
-  padding: 10px; /*PADDING DEL TEXTO DEL BOTÓN*/
+	background: #8696ab; /*COLOR DEL BOTÓN*/
+  border-color: #8696ab #8696ab #8696ab; /*COLOR DEL BORDE DEL BOTÓN*/
+	text-shadow: 0 -1px 1px #8696ab, 1px 0 1px #8696ab, 0 1px 1px #8696ab, -1px 0 1px ;  /*AÑADIR SOMBREADO AL TEXTO DEL BOTÓN*/
+
 }
 
 .gdpr.gdpr-privacy-bar .gdpr-agreement:hover {
-    background: #94C74B; /*COLOR AL HACER HOVER EN EL BOTÓN*/
-    border-color: #94C74B; /*COLOR DEL BORDE AL HACER HOVER EN EL BOTÓN*/
+    background: #8696ab; /*COLOR AL HACER HOVER EN EL BOTÓN*/
+    border-color: #8696ab; /*COLOR DEL BORDE AL HACER HOVER EN EL BOTÓN*/
 }
 
 .gdpr.gdpr-privacy-bar .gdpr-agreement::before{
@@ -37,7 +37,7 @@
 }
 	
 	.gdpr-agreement{
-	  margin-right: 30px !important;
+	  margin-right: 20px !important;
 	}
 }
 
@@ -46,7 +46,11 @@
 @media only screen and (min-width:1000px){
 	
   .gdpr.gdpr-privacy-bar .gdpr-wrapper{
-	  padding: 20px 40px;
+	  padding: 20px 40px 20px 40px ;
+}
+	
+	.gdpr.gdpr-privacy-bar .gdpr-wrapper .gdpr-content > p{
+	margin-bottom: 0px !important;
 }
 }
 
